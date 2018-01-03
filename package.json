@@ -32,7 +32,11 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.1.6",
+    "dotenv": "^4.0.0",
     "typescript": "2.4.2"
   },
-  "description": "An Ionic project"
+  "description": "An Ionic project",
+  "config": {
+    "ionic_webpack": "./config/webpack.config.js"
+  }
 }
